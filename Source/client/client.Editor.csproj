@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4FE8E5F-E3D1-E0DD-0B76-A28609D76C6B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.3f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.AppleTV.Extensions">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WSA.Extensions">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.WSA.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Tizen.Extensions">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SamsungTV.Extensions">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/STVPlayer/UnityEditor.SamsungTV.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Facebook.Extensions">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Editor">
+      <HintPath>Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Storage">
+      <HintPath>Assets/Firebase/Plugins/Firebase.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Sharpen">
+      <HintPath>Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.59.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.59.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.59.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.59.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.59.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.59.0.dll</HintPath>
+    </Reference>
+    <Reference Include="CameraShot">
+      <HintPath>Assets/Plugins/CameraShot.dll</HintPath>
+    </Reference>
+    <Reference Include="CameraShot_IOS">
+      <HintPath>Assets/Plugins/CameraShot_IOS.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageAndVideoPicker">
+      <HintPath>Assets/Plugins/ImageAndVideoPicker.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageAndVideoPicker_IOS">
+      <HintPath>Assets/Plugins/ImageAndVideoPicker_IOS.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartFox2X">
+      <HintPath>Assets/Plugins/SmartFox2X.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity 5.6.3f1 (64)/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="client.Plugins.csproj">
+      <Project>{DCE3F3B7-609F-4DBF-0D1C-40F6524D31BF}</Project>
+      <Name>client.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="client.csproj">
+      <Project>{6439B0B6-C827-AC16-CD69-C4C5DF2BB0A7}</Project>
+      <Name>client</Name>
+    </ProjectReference>
+    <ProjectReference Include="client.Editor.Plugins.csproj">
+      <Project>{9A7FC4D5-9A6A-05CC-84CF-BF62A0C21854}</Project>
+      <Name>client.Editor.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Editor\iVidCapPro\iVidCapPro_PostBuild.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_InspectorHelpEditor.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
+    <Compile Include="Assets\_Scripts\Editor\SubmitInputFieldEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\AmbientOcclusionModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\AntialiasingModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\BloomModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\BuiltinDebugViewsEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\ChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\ColorGradingModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\DefaultPostFxModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\DepthOfFieldModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\DitheringModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\EyeAdaptationModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\FogModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\GrainModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\MotionBlurModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\UserLutModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Models\VignetteModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Monitors\HistogramMonitor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Monitors\ParadeMonitor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Monitors\VectorscopeMonitor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Monitors\WaveformMonitor.cs" />
+    <Compile Include="Assets\postprocessing\editor\PostProcessingBehaviourEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\PostProcessingFactory.cs" />
+    <Compile Include="Assets\postprocessing\editor\PostProcessingInspector.cs" />
+    <Compile Include="Assets\postprocessing\editor\PostProcessingModelEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\PostProcessingMonitor.cs" />
+    <Compile Include="Assets\postprocessing\editor\PropertyDrawers\GetSetDrawer.cs" />
+    <Compile Include="Assets\postprocessing\editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\postprocessing\editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+    <Compile Include="Assets\postprocessing\editor\Utils\CurveEditor.cs" />
+    <Compile Include="Assets\postprocessing\editor\Utils\EditorGUIHelper.cs" />
+    <Compile Include="Assets\postprocessing\editor\Utils\EditorResources.cs" />
+    <Compile Include="Assets\postprocessing\editor\Utils\FxStyles.cs" />
+    <Compile Include="Assets\postprocessing\editor\Utils\ReflectionUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\EmojiInfo\info.txt" />
+    <None Include="Assets\FacebookSDK\link.xml" />
+    <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
+    <None Include="Assets\Firebase\Editor\AuthDependencies.xml" />
+    <None Include="Assets\Firebase\Editor\FirebaseAuth_v4.3.0_manifest.txt" />
+    <None Include="Assets\Firebase\Editor\FirebaseStorage_v4.3.0_manifest.txt" />
+    <None Include="Assets\Firebase\Plugins\Http\link.xml" />
+    <None Include="Assets\Firebase\Plugins\link.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
+    <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX4 Readme.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAlphaBlend_Alpha8.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Hidden.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Particle AlphaBlend+Add VColor.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Particle AlphaBlend+Add.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Particle AlphaBlend+AddSoft VColor.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Particle AlphaBlend+AddSoft.shader" />
+    <None Include="Assets\JsonDotNet\Assemblies\AOT\Newtonsoft.Json.XML" />
+    <None Include="Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.XML" />
+    <None Include="Assets\JsonDotNet\Assemblies\Windows\Newtonsoft.Json.XML" />
+    <None Include="Assets\JsonDotNet\link.xml" />
+    <None Include="Assets\NativeEditPlugin\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.59.0.txt" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\CropLib\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\CropLib\res\drawable\selector_crop_button.xml" />
+    <None Include="Assets\Plugins\Android\CropLib\res\layout\cropimage.xml" />
+    <None Include="Assets\Plugins\Android\CropLib\res\layout\main.xml" />
+    <None Include="Assets\Plugins\Android\CropLib\res\values-cs\strings.xml" />
+    <None Include="Assets\Plugins\Android\CropLib\res\values\strings.xml" />
+    <None Include="Assets\Plugins\Android\CropLib\res\values\styles.xml" />
+    <None Include="Assets\Plugins\Android\CropLib\res\xml\provider_paths.xml" />
+    <None Include="Assets\Plugins\Android\Firebase\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\iVidCapPro\GPUImage_License.txt" />
+    <None Include="Assets\Plugins\iVidCapPro\iVidCapPro_License.txt" />
+    <None Include="Assets\Res\Shader\ParticleShader.shader" />
+    <None Include="Assets\postprocessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\postprocessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\postprocessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\postprocessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\postprocessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\postprocessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\postprocessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\postprocessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\postprocessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\postprocessing\Utilities\custommotiontexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\postprocessing\resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\postprocessing\resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\postprocessing\resources\Shaders\ACES.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\Blit.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\Bloom.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\Common.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\postprocessing\resources\Shaders\FXAA.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\Fog.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\LutGen.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\TAA.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\TAA.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\postprocessing\resources\Shaders\Uber.shader" />
+    <None Include="Assets\postprocessing\resources\Shaders\UberSecondPass.cginc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
